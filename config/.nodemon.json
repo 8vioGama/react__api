@@ -1,0 +1,7 @@
+{
+  "verbose": false,
+  "ignoreRoot": [ ".git" ],
+  "watch": [ "config", "common", "server"  ],
+  "delay": "750",
+  "exec": "babel-node --inspect=0.0.0.0 -- server/server.js"
+}

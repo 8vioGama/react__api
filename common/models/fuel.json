@@ -1,0 +1,36 @@
+{
+  "name": "fuel",
+  "plural": "fuels",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "bills": {
+      "type": [
+        "string"
+      ]
+    },
+    "equipments": {
+      "type": [
+        "string"
+      ]
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "tariff": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,69 @@
+{
+  "name": "bill",
+  "plural": "bills",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "image": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "use": {
+      "type": "string"
+    },
+    "tariff": {
+      "type": "string"
+    },
+    "hilos": {
+      "type": "string"
+    },
+    "meterNumber": {
+      "type": "string"
+    },
+    "lastReading": {
+      "type": "string"
+    },
+    "currentReading": {
+      "type": "string"
+    },
+    "mult": {
+      "type": "string"
+    },
+    "consumption": {
+      "type": "number"
+    },
+    "productionCost": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "serviceNumber": {
+      "type": "string"
+    },
+    "consumptionPeriod": {
+      "type": "number"
+    },
+    "days": {
+      "type": "number"
+    },
+    "averageConsumption": {
+      "type": "number"
+    },
+    "averageSpent": {
+      "type": "number"
+    },
+    "fuel": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
